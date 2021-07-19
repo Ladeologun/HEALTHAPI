@@ -37,6 +37,13 @@ pip3 install -r requirements.txt
 ```
 python3 manage.py test
 ```
+- Make migrations by running the commands below in succession:
+```
+python3 manage.py makemigrations
+```
+```
+python3 manage.py migrate
+```
 - To start the Django server, run:
 ```
 python3 manage.py runserver
